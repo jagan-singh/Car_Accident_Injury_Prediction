@@ -4,7 +4,8 @@ By: Jagandeep Singh & Yehuda Schein
 ## Introduction
 We are using "Chicago Car Crash Dataset." This dataset initially had 431257 rows.
 The dataset included date and time, number of cars involved, weather condition,
-road condition, traffic way type, etc. We are predicting the severity of an accident.   
+road condition, traffic way type, etc. We are predicting the severity of an accident.\
+![](images/geo.png)
 
 ## Data Cleaning
 The dataset initially had 431257 rows and 49 columns. Most of the columns were
@@ -12,16 +13,24 @@ not useful for our model so we ended up keeping only 23 columns. A few hundred
 rows had nan values but since our data set had 400 thousand observation, we removed
 all the rows with nan values. After data cleaning we were left with 430398 rows.
 
+The dataset can be found here:\
+https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if
+
 ## Hypothesis tests
 We performed two hypothesis tests on the data.
-1. To check if the proportion of Severe Accidents is equal in Clear, Wet and Snow Weather Conditions.
-2. To check if the proportion of Severe Accidents is equal in Dry, Snow and Wet Road Conditions.
+1. To check if the proportion of Severe Accidents is equal in Clear, Wet and Snow Weather Conditions.\
+![](images/weather.png)
+2. To check if the proportion of Severe Accidents is equal in Dry, Snow and Wet Road Conditions.\
+![](images/road.png)
 
 ## Data Analysis and Visualization
 In our analysis, we checked the hour of accidents. Most accidents occur during the
 morning and evening rush hour. Then we looked at the severity of an accident with
 the road condition and Weather condition at the time of accident. Then we looked at
-the number of severe and non severe accidents in different seasons.
+the number of severe and non severe accidents in different seasons.\
+![](images/crash_hour.png)
+![](images/cost.png)
+![](images/season.png)
 
 ## Models
 We ran couple different models on the data. We checked for multicollinearity within
