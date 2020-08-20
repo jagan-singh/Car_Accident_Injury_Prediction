@@ -55,3 +55,6 @@ the addition of self driving cars. When an accident occurs, the car will know an
 immediately notify the EMTs. This notification can also include what features were
 involved in the accident (i.e. pedestrian, sideswipe, speeding etc.)  and be able
 to conclude whether or not this accident is severe and how much attention it needs.
+
+Here is the link to our presentation:\
+https://docs.google.com/presentation/d/1A5nPFqrnkGodolwsg-AYhul6f0UhpoYbqCpimEwe1uY/edit?usp=sharing
